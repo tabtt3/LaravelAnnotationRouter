@@ -1,0 +1,24 @@
+{
+    "name": "tabtt/sample",
+    "authors": [
+        {
+            "name": "tabtt3",
+            "email": "tabttppp@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":  {
+            "Tabtt\\Sample\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tabtt\\Sample\\ServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
